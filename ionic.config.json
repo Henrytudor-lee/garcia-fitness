@@ -1,0 +1,8 @@
+{
+  "name": "fitness_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "fd9c4013"
+}

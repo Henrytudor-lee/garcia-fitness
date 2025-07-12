@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+    0% {
+        left: 10px;
+    }
+
+    100% {
+        left: calc(-100% - 10px);
+    }
+}
