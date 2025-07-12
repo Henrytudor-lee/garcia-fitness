@@ -18,7 +18,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "只允许 POST 请求" });
   }
 
-  console.log('Received request body:', req.body);
   const data: SessionData = req.body;
 
   if (!data.user_id) {
